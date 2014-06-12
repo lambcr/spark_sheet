@@ -39,6 +39,7 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 group :development, :test do
-  gem 'valid_attribute'
+  gem 'factory_girl_rails', '~> 4.0'
   gem 'rspec-rails', '~> 3.0.0'
+  gem 'valid_attribute'
 end
